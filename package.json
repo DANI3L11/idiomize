@@ -1,0 +1,31 @@
+{
+  "name": "idiomize",
+  "version": "0.1.0",
+  "description": "Traductor de idioma idiomize",
+  "main": "dist/src/idiomize.js",
+  "scripts": {
+    "build": "babel src/idiomize.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DANI3L11/idiomize.git"
+  },
+  "keywords": [
+    "traductor",
+    "javascript",
+    "idiomize",
+    "idiom"
+  ],
+  "author": "Daniel <garciaantoniodaniel1@gmail.com> (https://twitter.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DANI3L11/idiomize/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
